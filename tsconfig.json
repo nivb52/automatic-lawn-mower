@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": ".",
+        "removeComments": true,
+        "sourceMap": false,
+        "allowSyntheticDefaultImports":true,
+        "moduleResolution": "Node"
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "basic_solution"
+    ]
+}
