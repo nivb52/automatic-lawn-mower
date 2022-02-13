@@ -1,8 +1,10 @@
 const print = console.log
 const rewire = require('rewire')
 const index = rewire('./index')
+const errors = rewire('./errors')
+const errorTypes = errors.__get__('errorTypes')
+
 const main = index.__get__('main')
-const errorTypes = index.__get__('errorTypes')
 // const calcMownMove = index.__get__('calcMownMove')
 
 describe('Main', () => {
